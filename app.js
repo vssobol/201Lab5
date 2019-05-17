@@ -8,8 +8,8 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function sum(a, b) {
     var add = a + b;
-    var sentence = "The sum of " + a + " and " + b + " is " + add + ".";
-    return[add, sentence];
+    var text = "The sum of " + a + " and " + b + " is " + add + ".";
+    return[add, text];
 }
 
 // Here is the test for sum(); uncomment it to run it
