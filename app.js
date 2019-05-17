@@ -44,8 +44,12 @@ IMPORTANT DETAIL: You may not use the arithmetic operators + and * in this funct
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumAndMultiply() function and see if the test passes.*/
 
 // Write your code here
-function sumAndMultiply(a, b, c) { //eslint-disable-line
-
+function sumAndMultiply(a, b, c) {
+    var add = a + b + c;
+    var product = a * b * c;
+    var textSum = a + " and " + b + " and " + c + " sum to " + add + ".";
+    var textMultiply = "The product of " + a + " and " + b + " and " + c + " is " + product + ".";
+    return[add,product,textSum,textMultiply];
 }
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
